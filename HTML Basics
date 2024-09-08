@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic File</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Heading tags: heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <P>this is paragraph</P>
+        <a href="https://codegnan.com">codegnan</a>
+        <img src="./codegnan logo.png" alt="codegnan logo"/>
+        <button>clickme</button>
+        <hr/>
+        <div>
+            division:Div is a block level element,new line and 100% width      
+        </div>
+        <br/>
+        <span>
+            span is an inline element and content background space
+        </span>
+        <br/>
+        <br/>
+        <header>this is a semantic element</header>
+        <section>this is a body semantic element</section>
+        <footer>this is a footer element</footer>
+        <p>Lorem ipsum &nbsp; &nbsp; &nbsp; dolor sit amet, consectetur adipisicing elit.<br/><br/> Repellendus numquam ipsam explicabo est minus sint, minima facere voluptatem accusamus quo alias sed. Deleniti quis quia deserunt ipsam consequatur est sed!</p>
+
+    </div>
+</body>
+</html>
