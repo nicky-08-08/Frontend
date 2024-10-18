@@ -1,0 +1,330 @@
+#html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks coffee company</title>
+    <link href="starbucks.css" rel="stylesheet" />
+    <link href="./starbucks-logo-png-1666.png" rel="stylesheet" type="image/png">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-left">
+                <img src="./logo.png" alt="logo">
+                <ul>
+                    <li>
+                        Menu 
+                    </li>
+                    <li>
+                        Rewards 
+                    </li>
+                    <li>
+                        Gift Cards 
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="location">
+                    <img src="./location.png" alt="location">
+                    <span>Find a store</span>
+                </div>
+                <button class="btn btn-primary">Sign In</button>
+                <button class="btn btn-secondary">Log In</button>
+            </div>
+        </div>    
+    </nav>
+    <div class="box at 0">
+        <div class="container">
+            <div class="box-text">
+                <h1 class="lg">So Many Prizes</h1>
+                <p class="p-ig">
+                    Play our new game every day for the most chances to win free coffee,gift cards and more.
+                </p>
+                <button class="btn btn-primary btn-white">Check it out</button>
+            </div>
+            <div class="box-img">
+                <img src="./1.webp" alt="1">
+            </div>
+        </div>
+    </div>
+    <div class="box box-secondary">
+        <div class="container">
+            <div class="box-text">
+                <h1>Iced Shaken Awakening</h1>
+                <p>
+                    Introducing our new Iced Toasted Vanilla Oatmilk Shaken Espresso with rich, creamy layers and non dairy goodness.
+                </p>
+                <button class="btn btn-primary btn-white">Check it out</button>
+            </div>
+            <div class="box-img">
+                <img src="./2.jpg" alt="2">
+            </div>
+        </div>
+    </div>
+    <div class="box box-secondary ">
+        <div class="container">
+            <div class="box-text">
+                <h1 >Cheerfully Chill</h1>                
+                <p>
+                    Enjoy Pink Drink and dragon Drink's vibrant, fruity flavours with coconut milk.
+                </p>
+                <button class="btn btn-primary btn-white">Check it out</button>
+            </div>
+            <div class="box-img">
+                <img src="./3.jpg" alt="3">
+            </div>
+        </div>
+    </div>
+    <div class="box at 0">
+        <div class="container">
+            <div class="box-text">
+                <h1 class="lg">So Many Prizes</h1>
+                <p class="p-ig">
+                    Play our new game every day for the most chances to win free coffee,gift cards and more.
+                </p>
+                <button class="btn btn-primary btn-white">Check it out</button>
+            </div>
+            <div class="box-img">
+                <img src="./1.webp" alt="1">
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="container">
+            <div class="box-text box-light">
+                <h1 class="lg">Earning 4,500 Bonus Stars is Super Starifying </h1>
+                <p class="p-ig">
+                    Earn more stars and even more rewards with a $0 intro annual fee for your first year with the Starbucks Reward Visa Card Plus your stars won't expire - an exclusive benefit for card members. Now that's Super Starifying.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="box-img">
+                <img src="./5.webp" alt="5">
+            </div>
+        </div>
+    </div>
+    <div class="box box-secondary nb-1">
+        <div class="container">
+            <div class="box-text box-light">
+                <h1 class="lg">Celebrating Women's History Month</h1>
+                <p class="p-ig">
+                    See how the Starbucks Women's Impact Network is uplifting comunities and find out how you can get involved.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="box-img">
+                <img src="./6.webp" alt="6">
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="container">
+            <div class="box-text box-light">
+                <h1 class="lg">Oppurtunity
+                </h1>
+                <p class="p-ig">
+                    To be more than a employee, to be a partner.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+            <div class="box-img">
+                <img src="./7.webp" alt="7">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+#css code
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nav */
+
+nav {
+  box-shadow: 0 1px 3px rgba(14, 1, 1, 0.1), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgba(0 0 0 / 7%);
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left ul li {
+  margin-left: 20px;
+}
+
+.nav-left ul li a {
+  text-decoration: uppercase;
+  color: #181a18;
+}
+
+.nav-left ul li a:hover {
+  color: #00754a;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-right .location {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.nav-right .location:hover {
+  color: #00754a;
+}
+
+.nav-right .location span {
+  margin-left: 10px;
+}
+
+.location img {
+  height: 20px;
+}
+
+.nav-right button {
+  margin-left: 20px;
+}
+
+.btn {
+  padding: 6.4px 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 40px;
+}
+
+.btn-primary {
+  border: 1px solid rgba(0, 0, 0, 0.87);
+}
+
+.btn-primary:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-secondary {
+  background-color: #181a18;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+/* main-content */
+
+.box {
+  margin-top: 32px;
+}
+
+.box .container {
+  display: flex;
+}
+
+.box-text {
+  width: 50%;
+  padding: 32px 80px;
+  background-color: #1e3932;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-text h1 {
+  font-size: 50px;
+}
+
+.box-text p {
+  margin-top: 60px;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.box-img {
+  width: 50%;
+}
+
+.box-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.lg {
+  font-size: 36px !important;
+}
+
+.p-lg {
+  font-size: 16px !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.box-secondary .container {
+  flex-direction: row-reverse;
+}
+
+.mb-1 {
+  margin-bottom: 32px;
+}
+
+.box-light {
+  background-color: #d4e9e2;
+  color: #181a18;
+}
+
+.box-light h1 {
+  font-weight: normal;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
